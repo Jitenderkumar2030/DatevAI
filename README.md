@@ -2,7 +2,7 @@
 
 **DatevAI** is an intelligent, modular platform that empowers German tax advisors, accountants, and SMEs by automating DATEV-style bookkeeping, document analysis, financial reporting, and compliance — all using AI and Machine Learning.
 
-> ✅ Built on the foundation of TallySmartAI  
+> ✅ Built on the foundation of DatevAI  
 > 🇩🇪 Tailored for the German accounting ecosystem  
 > 💼 Ideal for freelancers, Steuerberater, and accounting firms
 

@@ -17,10 +17,10 @@ elif page == "dashboard":
 with st.sidebar:
     st.title("🧭 DatevAI Academy")
     st.markdown("Navigate using the sidebar or use buttons below 👇")
-    if st.button("📚 TCFA Certification"):
+    if st.button("📚 DCFA Certification"):
         st.switch_page("pages/Certification.py")
 
-    if st.button("🎓 TCFA Course"):
+    if st.button("🎓 DCFA Course"):
         st.switch_page("pages/Course.py")
 
 # Landing Page
@@ -37,7 +37,7 @@ st.markdown(
 
 st.markdown("""  
 ### AI-Powered Forecasting & Financial Advisory Platform  
-> Upload Tally CSV. Get instant forecasts, financial insights, and downloadable reports.  
+> Upload DATEV CSV. Get instant forecasts, financial insights, and downloadable reports.  
 """)
 
 # Login / Signup Buttons
@@ -76,13 +76,13 @@ with col_review:
 
 # Certification / Course Section
 st.markdown("---")
-st.header("🎓 DatevAI Certified Financial Analyst Program (TCFA)")
+st.header("🎓 DatevAI Certified Financial Analyst Program (DCFA)")
 
 st.markdown("""
-Become a **DatevAI Certified Financial Analyst (TCFA)** and master AI-powered accounting, forecasting, and analytics.
+Become a **DatevAI Certified Financial Analyst (DCFA)** and master AI-powered accounting, forecasting, and analytics.
 
 ✅ What you’ll learn:
-- Upload & manage Tally data effectively  
+- Upload & manage Datev data effectively  
 - Use AI forecasting & FinRL recommendations  
 - Get answers from FinGPT for business/tax queries  
 - Generate insightful PDF/Excel reports  
@@ -94,7 +94,7 @@ Become a **DatevAI Certified Financial Analyst (TCFA)** and master AI-powered ac
 
 📜 **Certification:** Receive an industry-recognized certificate upon successful completion.
 
-[👉 Enroll in TCFA Now](https://your-enrollment-form-or-payment-link.com)
+[👉 Enroll in DCFA Now](https://your-enrollment-form-or-payment-link.com)
 """, unsafe_allow_html=True)
 
 # Footer
