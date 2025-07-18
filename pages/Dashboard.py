@@ -23,8 +23,8 @@ from ai_modules.fingpt_assistant import ask_fingpt
 from ai_modules.finrl_agent import train_agent, get_finrl_recommendation
 
 # --- UI & Auth ---
-st.set_page_config(page_title="Dashboard - TallySmartAI", layout="wide")
-st.title("📊 TallySmartAI Dashboard")
+st.set_page_config(page_title="Dashboard - DatevAI", layout="wide")
+st.title("📊 DatevAI Dashboard")
 
 # Check session token
 token = st.session_state.get("token")
@@ -100,12 +100,12 @@ if payload["role"] in ["pro", "admin"]:
 
     # 1. Ask AI Advisor
     st.subheader("🧠 Ask an AI Financial Advisor")
-    advisor_choice = st.radio("Select Advisor", ["TallySmartAI GPT Advisor", "FinGPT AI Analyst"])
+    advisor_choice = st.radio("Select Advisor", ["DatevAI GPT Advisor", "FinGPT AI Analyst"])
     question = st.text_area("Ask a financial/business/tax question:")
 
     if st.button("Ask Advisor"):
         try:
-            if advisor_choice == "TallySmartAI GPT Advisor":
+            if advisor_choice == "DatevAI GPT Advisor":
                 answer = get_financial_advice(question)
             else:
                 answer = ask_fingpt(question)
@@ -143,7 +143,7 @@ if payload["role"] in ["pro", "admin"]:
             c = canvas.Canvas(pdf_io, pagesize=letter)
             width, height = letter
             c.setFont("Helvetica-Bold", 14)
-            c.drawString(30, height - 40, "📊 TallySmartAI - Forecast Report")
+            c.drawString(30, height - 40, "📊 DatevAI - Forecast Report")
             c.setFont("Helvetica", 10)
             c.drawString(30, height - 60, f"Generated: {datetime.now()}")
             y = height - 90
@@ -164,7 +164,7 @@ if payload["role"] in ["pro", "admin"]:
 
             # Telegram Notification
             try:
-                send_forecast_alert("your_telegram_user_id", "📊 Forecast completed in TallySmartAI.")
+                send_forecast_alert("your_telegram_user_id", "📊 Forecast completed in DatevAI.")
             except:
                 st.warning("⚠️ Telegram alert failed.")
         else:

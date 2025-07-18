@@ -2,11 +2,11 @@
 
 import streamlit as st
 
-st.set_page_config(page_title="TCFA Certification - TallySmartAI", layout="wide")
-st.title("🎓 TallySmartAI Certified Financial Analyst (TCFA) Program")
+st.set_page_config(page_title="TCFA Certification - DatevAI", layout="wide")
+st.title("🎓 DatevAI Certified Financial Analyst (TCFA) Program")
 
 st.markdown("""
-Welcome to the **TallySmartAI Certified Financial Analyst (TCFA) Program** – the ultimate certification to master AI-powered accounting and financial analysis.
+Welcome to the **DatevAI Certified Financial Analyst (TCFA) Program** – the ultimate certification to master AI-powered accounting and financial analysis.
 
 ---
 
@@ -19,7 +19,7 @@ Welcome to the **TallySmartAI Certified Financial Analyst (TCFA) Program** – t
 
 ---
 
-## 👨‍💼 Accountants Trained in Tally Prime + TallySmartAI
+## 👨‍💼 Accountants Trained in Tally Prime + DatevAI
 
 ### ✅ Tally Prime Skills:
 - Bookkeeping & accounting entries  
@@ -28,8 +28,8 @@ Welcome to the **TallySmartAI Certified Financial Analyst (TCFA) Program** – t
 - Generating standard financial statements  
 - Navigating Tally UI and shortcuts efficiently  
 
-### ✅ TallySmartAI Skills:
-- Uploading/exporting Tally data to TallySmartAI securely  
+### ✅ DatevAI Skills:
+- Uploading/exporting Tally data to DatevAI securely  
 - Using AI forecasting tools to project revenue, expenses, and cash flows  
 - Generating advanced reports (PDF, Excel) directly from AI predictions  
 - Leveraging AI advisors (FinGPT) to answer tax/finance queries  
@@ -58,8 +58,8 @@ Welcome to the **TallySmartAI Certified Financial Analyst (TCFA) Program** – t
 ## 📜 Certification Benefits
 - Industry-recognized digital certificate
 - Boost your resume with AI & financial analytics skills
-- Priority access to TallySmartAI Pro features
-- Discounts on future TallySmartAI offerings
+- Priority access to DatevAI Pro features
+- Discounts on future DatevAI offerings
 
 ---
 
@@ -69,7 +69,7 @@ INR 2,999 – 4,999 per participant
 ---
 
 ## ✅ Enroll Now
-Ready to become a certified financial analyst with TallySmartAI? Click the button below to register!
+Ready to become a certified financial analyst with DatevAI? Click the button below to register!
 """)
 
 if st.button("🚀 Enroll in TCFA Certification"):

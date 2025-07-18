@@ -2,7 +2,7 @@
 
 import streamlit as st
 
-st.set_page_config(page_title="TallySmartAI", page_icon="📊", layout="wide")
+st.set_page_config(page_title="DatevAI", page_icon="📊", layout="wide")
 
 # Optional Redirect Handler
 page = st.session_state.get("page")
@@ -15,7 +15,7 @@ elif page == "dashboard":
 
 # Sidebar
 with st.sidebar:
-    st.title("🧭 TallySmartAI Academy")
+    st.title("🧭 DatevAI Academy")
     st.markdown("Navigate using the sidebar or use buttons below 👇")
     if st.button("📚 TCFA Certification"):
         st.switch_page("pages/Certification.py")
@@ -24,7 +24,7 @@ with st.sidebar:
         st.switch_page("pages/Course.py")
 
 # Landing Page
-st.title("📊 Welcome to TallySmartAI")
+st.title("📊 Welcome to DatevAI")
 
 st.markdown(
     """
@@ -57,7 +57,7 @@ st.markdown("### 🔍 Explore More")
 col_feat, col_review = st.columns(2)
 
 with col_feat:
-    st.subheader("🚀 Why TallySmartAI?")
+    st.subheader("🚀 Why DatevAI?")
     st.markdown("""
 - 📈 **Instant Financial Forecasting**  
 - 🤖 **AI-powered Business Insights**  
@@ -70,16 +70,16 @@ with col_feat:
 
 with col_review:
     st.subheader("💬 What Our Users Say")
-    st.success("“TallySmartAI saved us hours of manual effort each week. The insights are spot on!” – Priya, CFO at RetailNest")
+    st.success("“DatevAI saved us hours of manual effort each week. The insights are spot on!” – Priya, CFO at RetailNest")
     st.info("“Seamless integration and excellent support. Game-changer for small businesses.” – Rohan, Founder of GreenMart")
     st.warning("“Loved the reports and visual insights. Helped us make faster decisions.” – Meena, Head of Finance at FinBridge")
 
 # Certification / Course Section
 st.markdown("---")
-st.header("🎓 TallySmartAI Certified Financial Analyst Program (TCFA)")
+st.header("🎓 DatevAI Certified Financial Analyst Program (TCFA)")
 
 st.markdown("""
-Become a **TallySmartAI Certified Financial Analyst (TCFA)** and master AI-powered accounting, forecasting, and analytics.
+Become a **DatevAI Certified Financial Analyst (TCFA)** and master AI-powered accounting, forecasting, and analytics.
 
 ✅ What you’ll learn:
 - Upload & manage Tally data effectively  
@@ -101,7 +101,7 @@ Become a **TallySmartAI Certified Financial Analyst (TCFA)** and master AI-power
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; padding: 10px; font-size: 14px;'>
-    © 2025 <strong>TallySmartAI</strong> | Built with ❤️ by Jitender Kumar  
+    © 2025 <strong>DatevAI</strong> | Built with ❤️ by Jitender Kumar  
     <br>Need help? <a href="/7_Contact_Us" target="_self">📞 Contact Support</a>
 </div>
 """, unsafe_allow_html=True)

@@ -43,7 +43,7 @@ def create_subscription_session(email):
                 "subscription": {
                     "plan_id": CASHFREE_PLAN_ID,
                     "return_url": "http://localhost:8501?payment=success",
-                    "subscription_note": "TallySmartAI Pro Access"
+                    "subscription_note": "DatevAI Pro Access"
                 }
             }
         )

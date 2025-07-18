@@ -2,7 +2,7 @@
 
 import streamlit as st
 
-st.set_page_config(page_title="TCFA Course Details - TallySmartAI", layout="wide")
+st.set_page_config(page_title="TCFA Course Details - DatevAI", layout="wide")
 st.title("📖 TCFA Course Curriculum & Registration")
 
 st.markdown("""
@@ -12,7 +12,7 @@ The **TCFA Program** includes the following modules:
 
 1️⃣ Introduction to AI in Finance  
 2️⃣ Tally Data Upload & Validation  
-3️⃣ Financial Forecasting with TallySmartAI  
+3️⃣ Financial Forecasting with DatevAI  
 4️⃣ Using FinGPT for Business & Tax Q&A  
 5️⃣ FinRL Smart Recommendations for Strategy  
 6️⃣ Generating Professional Reports (PDF & Excel)  

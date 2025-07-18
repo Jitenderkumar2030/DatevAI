@@ -1,10 +1,10 @@
 import streamlit as st
 import jwt
 
-st.set_page_config(page_title="Login - TallySmartAI", layout="centered")
+st.set_page_config(page_title="Login - DatevAI", layout="centered")
 
 # Login Form
-st.title("🔐 Login to TallySmartAI")
+st.title("🔐 Login to DatevAI")
 email = st.text_input("Email")
 password = st.text_input("Password", type="password")
 

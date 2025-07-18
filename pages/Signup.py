@@ -1,7 +1,7 @@
 import streamlit as st
 from backend.auth_service import create_user
 
-st.set_page_config(page_title="Sign Up - TallySmartAI")
+st.set_page_config(page_title="Sign Up - DatevAI")
 
 st.title("📝 Create an Account")
 

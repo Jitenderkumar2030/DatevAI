@@ -1,7 +1,7 @@
 import streamlit as st
 
-st.set_page_config(page_title="Careers - TallySmartAI", layout="wide")
-st.title("🚀 Careers @ TallySmartAI")
+st.set_page_config(page_title="Careers - DatevAI", layout="wide")
+st.title("🚀 Careers @ DatevAI")
 
 st.markdown("""
 <div style='text-align: center; font-size: 22px; font-weight: bold; margin-top: 20px;'>
@@ -11,7 +11,7 @@ st.markdown("""
 ---
 
 <p style='font-size: 17px; line-height: 1.6; text-align: justify;'>
-<strong>TallySmartAI</strong> is a fast-growing AI startup revolutionizing business forecasting and financial analysis for SMEs and accountants across India. We’re on a mission to make powerful AI tools accessible to every business, and we’re looking for talented individuals to join our journey.
+<strong>DatevAI</strong> is a fast-growing AI startup revolutionizing business forecasting and financial analysis for SMEs and accountants across India. We’re on a mission to make powerful AI tools accessible to every business, and we’re looking for talented individuals to join our journey.
 </p>
 
 ---

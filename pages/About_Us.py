@@ -1,7 +1,7 @@
 import streamlit as st
 
-st.set_page_config(page_title="About TallySmartAI", layout="wide")
-st.title("📖 About TallySmartAI")
+st.set_page_config(page_title="About DatevAI", layout="wide")
+st.title("📖 About DatevAI")
 
 st.markdown("""
 <div style='text-align: center; font-size: 22px; font-weight: bold; margin-top: 20px;'>
@@ -11,12 +11,12 @@ st.markdown("""
 ---
 
 <p style='font-size: 18px; line-height: 1.6; text-align: justify;'>
-<strong>TallySmartAI</strong> is an advanced AI-powered platform designed to <strong>automate financial forecasting</strong>, streamline reporting, and provide <strong>intelligent advisory services</strong> for accountants, SMEs, and business owners.
+<strong>DatevAI</strong> is an advanced AI-powered platform designed to <strong>automate financial forecasting</strong>, streamline reporting, and provide <strong>intelligent advisory services</strong> for accountants, SMEs, and business owners.
 </p>
 
 ---
 
-### 🌟 Why Choose TallySmartAI?
+### 🌟 Why Choose DatevAI?
 
 ✅ <strong>AI-Driven Insights:</strong> Instantly generate forecasts, detect trends, and gain actionable advice  
 ✅ <strong>Designed for India:</strong> Built to handle Tally data, GST compliance, and local business needs  
