@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: tallysmartai
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run Home.py --server.port=$PORT --server.address=0.0.0.0
+    plan: free
+    autoDeploy: true
+

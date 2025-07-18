@@ -1,0 +1,44 @@
+[[pages]]
+path = "streamlit_app.py"
+name = "Home"
+icon = "🏠"
+
+[[pages]]
+path = "pages/Login.py"
+name = "Login"
+icon = "🔐"
+
+[[pages]]
+path = "pages/Signup.py"
+name = "Signup"
+icon = "📝"
+
+[[pages]]
+path = "pages/Reset_Password.py"
+name = "Reset Password"
+icon = "🔁"
+
+[[pages]]
+path = "pages/Dashboard.py"
+name = "Dashboard"
+icon = "📊"
+
+[[pages]]
+path = "pages/Pricing.py"
+name = "Pricing"
+icon = "💸"
+
+[[pages]]
+path = "pages/About_Us.py"
+name = "About Us"
+icon = "📖"
+
+[[pages]]
+path = "pages/Contact_Us.py"
+name = "Contact Us"
+icon = "📞"
+
+[[pages]]
+path = "pages/Careers.py"
+name = "Careers"
+icon = "🚀"

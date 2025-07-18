@@ -1,0 +1,42 @@
+# Web & App Frameworks
+streamlit
+fastapi
+uvicorn
+
+# Data & Machine Learning
+pandas
+prophet
+numpy
+scikit-learn
+
+# AI & Language Models
+openai
+transformers
+datasets
+sentencepiece
+
+# Deep RL (for FinRL)
+gym
+stable-baselines3[extra]
+
+# Auth & Security
+python-jose
+PyJWT
+bcrypt==3.2.2
+passlib[bcrypt]
+python-dotenv
+
+# Reporting & Visualization
+reportlab
+xlsxwriter
+matplotlib
+seaborn
+
+# Telegram Bot
+python-telegram-bot==13.15
+
+# Streamlit Extensions
+streamlit-extras
+
+# API & Network
+requests
